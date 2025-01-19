@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .register-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register-form input,
+    .register-form button {
+        width: 200px;
+    }
+
+    h3 {
+        margin-block-start: 5px;
+        margin-block-end: 5px;
+    }
+
+    .register-form button {
+        display: block;
+        margin-block-start: 15px;
+        align-self: center;
+    }
+
+    h2 {
+        /* This setting is only for 1920x1080 screen size*/
+        position: absolute;
+        top: 32vh;
+        right: 90.4vh;
+    }
+</style>
+
+<h2>Registration in our site</h2>
+
+<form class="register-form">
+    <h3>Your Nickname</h3>
+    <input type="text" placeholder="Enter your nickname" />
+    <h3>Your Password</h3>
+    <input type="password" placeholder="Enter your password" />
+    <h3>Your Email</h3>
+    <input type="text" placeholder="Enter your email address" />
+    <button>Create account</button>
+</form>
+
+<body>
+
+</body>
+
+</html>
